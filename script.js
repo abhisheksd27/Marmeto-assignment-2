@@ -78,9 +78,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     sesetTimeout(function () {
     cartMessage.style.display = "none";
-  }, 5000); // 5000 milliseconds = 5 seconds
-
-  // Reset selected color and size to defaults
+  }, 5000);
+ 
   selectedColor.classList.remove("selected");
   selectedColor.style.border = "none";
   selectedColor = null;

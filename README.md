@@ -1,4 +1,5 @@
 **Project Documentation: Embrace Sideboard**
+
 **Overview:**
 
 The Embrace Sideboard project aims to create an interactive and visually appealing web page for showcasing and purchasing a sideboard product. The project includes HTML, CSS, and JavaScript components to create a seamless user experience.

@@ -1,9 +1,9 @@
-Project Documentation: Embrace Sideboard
-Overview:
+**Project Documentation: Embrace Sideboard**
+**Overview:**
 
 The Embrace Sideboard project aims to create an interactive and visually appealing web page for showcasing and purchasing a sideboard product. The project includes HTML, CSS, and JavaScript components to create a seamless user experience.
 
-*HTML Structure*:
+**HTML Structure**:
 
     index.html: Contains the main structure of the webpage.
     
@@ -15,7 +15,7 @@ The Embrace Sideboard project aims to create an interactive and visually appeali
     
     Links external CSS and JavaScript files.
     
-*CSS Styling*:
+**CSS Styling**:
 
   style.css:   Contains the styling rules for the webpage.
   
@@ -27,7 +27,7 @@ The Embrace Sideboard project aims to create an interactive and visually appeali
   
   Imports Google Fonts for typography customization.
   
-*JavaScript Interactivity*:
+**JavaScript Interactivity**:
 
   script.js: Adds interactivity and functionality to the webpage.
   
@@ -41,7 +41,7 @@ The Embrace Sideboard project aims to create an interactive and visually appeali
   
   Provides feedback messages for successful actions and error handling.
 
-*Project Structure:*
+**Project Structure:**
 
                 project-root/
             │
@@ -57,5 +57,24 @@ The Embrace Sideboard project aims to create an interactive and visually appeali
             └── documentation/
                 └── README.md
 
+
+
+**Usage**
+    Access the project live on GitHub Pages at https://abhisheksd27.github.io/Marmeto-assignment-2/ .
     
+Alternatively, you can clone or download the project repository to your local machine.
+
+Open index.html in a web browser to view the webpage locally.
+
+Interact with the webpage to select product options, adjust quantity, and add items to the cart.
+
+**Dependencies:**
+
+Google Fonts: Inter font family is used for typography.
+
+External image files for product images and icons.
+
+**Conclusion:**
+
+The Embrace Sideboard project provides a user-friendly interface for browsing and purchasing a sideboard product. It demonstrates the use of HTML, CSS, and JavaScript to create an engaging and functional web experience.
 

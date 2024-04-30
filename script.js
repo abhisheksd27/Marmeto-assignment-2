@@ -80,10 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
       cartMessage.style.display = "none";
     }, 5000);
     
-    selectedColor.classList.remove("selected");
-    selectedColor.style.border = "none";
-    selectedColor = null;
-    document.querySelector('input[name="size"]:checked').checked = false;
+    
 
   });
 });

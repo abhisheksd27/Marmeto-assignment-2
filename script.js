@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   console.log(discountPercentage + '%');
 
-
   function darkenColor(color) {
     const factor = 0.8;
     const [r, g, b] = color.match(/\d+/g);
@@ -71,21 +70,22 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const selectedColorName = selectedColor.style.backgroundColor;
-    const selectedSize = document.querySelector('input[name="size"]:checked').id;
+    const selectedSize = document.querySelector('input[name="size"]:checked');
+    if (!selectedSize) {
+      cartMessage.style.display = "none";
+      return;
+    }
 
-    cartMessage.textContent = `Embrace Sideboard with Color ${selectedColorName} and Size ${selectedSize} added to cart`;
+    cartMessage.textContent = `Embrace Sideboard with Color ${selectedColorName} and Size ${selectedSize.id} added to cart`;
     cartMessage.style.display = "block";
 
-    sesetTimeout(function () {
-    cartMessage.style.display = "none";
-  }, 5000);
- 
-  selectedColor.classList.remove("selected");
-  selectedColor.style.border = "none";
-  selectedColor = null;
-  document.querySelector('input[name="size"]:checked').checked = false;
-    
-    
+    setTimeout(function () {
+      cartMessage.style.display = "none";
+    }, 5000);
 
+    selectedColor.classList.remove("selected");
+    selectedColor.style.border = "none";
+    selectedColor = null;
+    selectedSize.checked = false;
   });
 });

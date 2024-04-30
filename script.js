@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const color = this.style.backgroundColor;
       const borderColor = darkenColor(color);
-      this.style.border = `2px solid ${borderColor}`;
+      this.style.border = `2px solid ${borderColor}`; 
     });
   });
 

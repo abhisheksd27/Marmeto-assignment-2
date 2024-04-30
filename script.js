@@ -76,9 +76,15 @@ document.addEventListener("DOMContentLoaded", function () {
     cartMessage.textContent = `Embrace Sideboard with Color ${selectedColorName} and Size ${selectedSize} added to cart`;
     cartMessage.style.display = "block";
 
-    setTimeout(function () {
-      cartMessage.style.display = "none";
-    }, 5000);
+    sesetTimeout(function () {
+    cartMessage.style.display = "none";
+  }, 5000); // 5000 milliseconds = 5 seconds
+
+  // Reset selected color and size to defaults
+  selectedColor.classList.remove("selected");
+  selectedColor.style.border = "none";
+  selectedColor = null;
+  document.querySelector('input[name="size"]:checked').checked = false;
     
     
 
